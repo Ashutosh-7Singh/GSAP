@@ -28,8 +28,8 @@ body {
 }
 
 #circle{
-    height: 300px;
+    height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: linear-gradient(red,green);
+    background: linear-gradient(rgb(88, 14, 14),rgb(159, 115, 196));
 }
