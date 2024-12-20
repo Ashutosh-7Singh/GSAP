@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sans";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#page1,#page2,#page3{
+    height: 100%;
+    display: flex;
+    width:  100%;
+    align-items: center;
+    justify-content: center ;
+}
+#page1{
+    background-color: salmon;
+}
+#page2{
+    background-color: slateblue;
+}
+#page3{
+    background-color: seagreen;
+}
+
+#circle{
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(red,green);
+}
